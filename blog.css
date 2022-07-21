@@ -45,20 +45,32 @@
 .banner_text a{
     display: inline-block;
     text-decoration: none;
-    padding: 15px  30px;
+    width: 200px;
+    padding: 15px ;
+    color: #fff;
     background-color: #dd0000;
     border-radius: 5px;
     color: #fff;
-    font-size: 20px;
-    margin-top: 15px;
-    transition: 1s;
-}
-.banner_text a:hover .fa-solid{
-  transform: translateX(10px);
-}
-.banner_text a .fa-solid{
-    padding-left: 10px;
     font-size: 16px;
+    margin-top: 15px;
+   
+}
+.banner_text a:hover {
+  background: #f1c40f;
+  color: #000;
+  transition: .3s;
+}
+.live_btn .fa-solid{
+    margin-left: 50px;
+    animation: run 1.5s ease-in-out infinite;
+}
+@keyframes run{
+    0%,100%{
+        margin-left: 40px;
+    }
+    50%{
+        margin-left: 10px;
+    }
 }
 .banner_image {
     padding-right: 70px;
