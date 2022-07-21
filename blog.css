@@ -1,4 +1,5 @@
-/* update */
+/* another website  */
+
 *{
     margin: 0;
     padding: 0;
@@ -87,6 +88,10 @@
 	margin-left: 104px;
     padding: 0 20px;
 }
+.next_match{
+    background-color: #dd0000 !important;
+    color: #fff !important;
+}
 .blog .match_scedeul a {
 	font-size: 18px;
     font-weight: 500;
@@ -101,42 +106,53 @@
 	height: 45px;
 	line-height: 39px;
 }
-.blog_sample{
+/* .blog_sample{
     background-color: #dd0000 !important;
-    color: #fff !important;
-}
+} */
 
-.players_blog{
-   display: grid;
-   grid-template-columns: repeat(3, 1fr);
-   gap: 20px;
-   padding-right: 76px;
-   
+.players_blog {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+	padding-right: 76px;
+	width: 100%;
 }
 .players_blog .players_blog_1{
     width: 100%;
     border-radius: 10px;
-    border: 1px solid #e8e8e8;
-    
-   
+    border: 1px solid #e8e8e8; 
+    height: 100%;
+    padding: 30px 20px 10px ;
 }
-.players_blog .players_blog_1 img{
+.flag_image{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+   
+   
+    
+}
+.germany_flag img{
     width: 100%;
 }
-.blog_text{
-    padding: 10px 10px 20px 20px;
-    
+.vs_text{
+    margin-top: 16px;
 }
-.blog_btn{
-    color: #000;
-    display: inline-block;
-    font-size: 16px;
-    text-decoration: none;
-    border: 1px solid #161616;
-    padding: 5px 15px;
-    border-radius: 5px;
-    margin-bottom: 15px;
-    
+.france_flag img{
+    width: 100%;
+}
+.flag_text{
+    text-align: center;
+    color: #161616;
+    margin-top: 10px;
+}
+.time_text{
+    text-align: center;
+    margin-top: 16px;
+}
+
+.players_blog .players_blog_1 img{
+    width: 100%;
 }
 
 .blog_sample_text{
